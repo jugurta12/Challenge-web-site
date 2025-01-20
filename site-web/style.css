@@ -1,0 +1,698 @@
+body {
+    margin: 0;
+}
+
+.nav1{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    color: #f7f7f7;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    gap: 440px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.liens a{
+    font-family: 'Inria Sans';
+    color: white;
+    text-decoration: none;
+    
+}
+
+.liens a:hover{
+    cursor: grab;
+    transition: 1s ease-in-out, left 1s ease-in-out ;
+}
+
+.liens a::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; width: 0; height: 3px; 
+    background-color: rgb(255, 255, 255);
+    transition: 1s ease-in-out, left 1s ease-in-out;
+}
+
+.liens a:hover::after {
+    width: 100%; 
+    right: 0; 
+}
+
+.logo{
+    font-family: "Inspiration";
+    font-size: 50px;
+    position: relative;
+    left: -150px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.liens{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    font-size: 23px;
+    margin-left: 100px;
+}
+
+.icon a{
+    font-family: 'Inria Sans';
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    position: relative;
+    right:20px;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+    cursor: grab;
+    transition: 0.5s ease-in-out, left 0.5s ease-in-out;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;              
+    width: 100%;
+    top: 200px;
+    gap:50px;
+    position: relative;
+}
+
+.bijouterie{
+    font-family: "instrument serif";
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.collections{
+    font-size: 25px;
+    font-family: "Julius Sans One";
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 160px;
+    row-gap: 20px;
+    position: relative;
+    top:300px;
+}
+
+.img1,.img2,.img3,.img4,.img5,.img6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: "Imperial script";
+}
+
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover{
+    transition: 0.5s ease;
+    transform: scale(1.2);
+    cursor: grab;
+}
+
+.img1 a{
+    color: black;
+    text-decoration: none;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7B7878;
+    width: 630px;
+    height: 520px;
+    position: relative;
+    margin-left: 80px;
+    top: 400px;
+}
+
+.img7{
+    border: 25px solid white;
+    background-color: white;
+}
+
+.container4{
+    position: relative;
+    top: -200px;
+    display: flex;
+    margin-left:800px ;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.contact{
+    font-family: "Italianno";
+    font-size: 85px;
+}
+
+.perso{
+    font-family: 'Jaldi';
+    font-size: 25px;
+}
+
+.contact2{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.contact2:hover{
+    cursor: grab;
+    display: flex;
+
+}
+
+.fin{
+    font-family: 'Junge';
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    right: 90px;
+}
+
+.bijou8{
+    display: flex;
+    position: relative;
+    top:150px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(222, 222, 222);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 50px;
+}
+
+.L’éphèmere{
+    font-family: "Imperial script";
+    position: relative;
+    top: 100px;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bijou88{
+    font-family: 'Abhaya Libre';
+    font-size: 30px;
+}
+
+.bijou888{
+    font-family: 'Abhaya Libre';
+    color: #7B7878;
+}
+
+.bijou8888{
+    font-family: 'Abel';
+    font-size: 25px;
+}
+
+.container12{
+    display: flex;
+    justify-content: center;
+    gap:75px;
+    position: relative;
+    top: 300px;
+    background-color: rgb(222, 222, 222);;
+    padding-top: 50px;
+    margin-left: 110px;
+    margin-right: 110px;
+    height: 420px;
+}
+
+.empire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.empire2{
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+}
+
+.empire3{
+   font-family: "Abel";
+   font-size: 30px;
+   position: relative;
+   top: -30px;
+}
+
+.monoS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.monoS2{
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+}
+
+.monoS3{
+   font-family: "Abel";
+   font-size: 30px;
+   position: relative;
+   top: -30px;
+}
+
+.baguelette{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.baguelette2{
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+}
+
+.baguelette3{
+   font-family: "Abel";
+   font-size: 30px;
+   position: relative;
+   top: -30px;
+}
+
+.container13{
+    display: flex;
+    justify-content: center;
+    gap:75px;
+    position: relative;
+    top: 400px;
+    background-color: rgb(222, 222, 222);;
+    padding-top: 50px;
+    margin-left: 110px;
+    margin-right: 110px;
+    height: 440px;
+}
+
+.DA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.DA2{
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+}
+
+.DA3{
+   font-family: "Abel";
+   font-size: 30px;
+   position: relative;
+   top: -30px;
+}
+
+.Xlord{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Xlord2{
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+}
+
+.Xlord3{
+   font-family: "Abel";
+   font-size: 30px;
+   position: relative;
+   top: -30px;
+}
+
+.fortuna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fortuna2{
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+}
+
+.fortuna3{
+   font-family: "Abel";
+   font-size: 30px;
+   position: relative;
+   top: -30px;
+}
+
+.fin2{
+    position: relative;
+    top:600px;
+    height: 70px;
+    font-size: 15px;
+    font-family: "junge";
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: 100px;
+
+}
+
+.bijou8:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.container21{
+    display: flex;
+    gap: 100px;
+    position: relative;
+    top: 200px;
+    background-color: rgb(221, 221, 222);
+    margin: 40px;
+
+}
+
+.col{
+    flex-direction: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: "Imperial script";
+    font-size: 50px;
+    margin-left: 50px;
+    position: relative;
+    top: -50px;
+}
+
+.coll{
+    position: relative;
+    margin-left: 125px;
+}
+
+.col2{
+    background-color: rgb(245, 243, 243);
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 70px;
+    margin-right: 70px;
+}
+
+.color{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 140px;
+}
+
+.color1{
+height: 50px;
+width: 50px;
+background-color: rgb(231, 214, 88);
+border-radius: 50%;
+}
+
+.color2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(198, 198, 198);
+    border-radius: 50%;
+}
+
+.color3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(244, 183, 249);
+    border-radius: 50%;
+}
+
+.color4{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.Martir1{
+    font-family: 'Abhaya Libre';
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.Martir2{
+    font-family: 'Inria Sans';
+    font-size: 17px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.Martir3{
+    font-family: 'Inria Sans';
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.col3{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.prix{
+    font-family: 'abel';
+    font-size: 30px;
+}
+
+.add1{
+    font-family: 'bold'; 
+    font-size: 25px;
+    background-color: black;
+    color: #f7f7f7;
+    width: 400px;
+}
+
+.livraison{
+    font-family: 'Abhaya Libre';
+}
+
+.look{
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top:250px;
+    font-family: 'French Canon SC'
+}
+
+.clou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.clou2{
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+}
+
+.clou3{
+   font-family: "Abel";
+   font-size: 30px;
+   position: relative;
+   top: -30px;
+}
+
+.Branch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Branch2{
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+}
+
+.Branch3{
+   font-family: "Abel";
+   font-size: 30px;
+   position: relative;
+   top: -30px;
+}
+
+.Space{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Space2{
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+}
+
+.Space3{
+   font-family: "Abel";
+   font-size: 30px;
+   position: relative;
+   top:-30px;
+}
+
+
+.container22{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    top: 400px;
+    margin-left: 110px;
+    margin-right: 110px;
+    height: 420px;
+}
+
+.fin3{
+    position: relative;
+    top:500px;
+    font-size: 15px;
+    font-family: "junge";
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: 100px;
+
+}
+
+
+
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+#product, #cart {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+#product h2, #cart h2 {
+    font-size: 1.5em;
+}
+
+.product .price {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "junge";
+}
+
+button:hover {
+    background-color: #c82333;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+}
+
+.popup p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.popup button {
+    background-color: #007bff;
+}
+
+.popup button:hover {
+    background-color: #0056b3;
+}
+
+.payement{
+    background: #28a745;
+    color: #ffffff;
+}
+
+.payement:hover {
+    background-color: #01601f;
+}
+
+.fin4{
+    position: relative;
+    top:200px;
+    font-size: 15px;
+    font-family: "junge";
+    display: flex;
+    justify-content: right;
+    margin: 100px;
+}
