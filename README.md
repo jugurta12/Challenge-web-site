@@ -1,1 +1,1 @@
-# Challenge-web-site
+"Éclat d'Or" est un site de commerce électronique dédié à la vente de bijoux uniques et raffinés. Ce projet est conçu pour offrir une expérience utilisateur fluide, intuitive et élégante aux clients en leur permettant d’acheter des bijoux en ligne, d’ajouter des articles à leur panier, de modifier le contenu du panier et de finaliser leur commande.# Challenge-web-site
